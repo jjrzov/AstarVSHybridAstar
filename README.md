@@ -1,7 +1,7 @@
 ## Overview
 This repo contains a demo script for comparing A* and Hybrid A* within the CARLA autonomous driving simulator. Implementations for A*, Hybrid A*, Reeds-Shepp curves, and the Stanley Controller are done by zhm-real and included in their repo:
 
-* [Basic Path Planning Algorithms: ](https://github.com/zhm-real/MotionPlanning) MotionPlanning
+Basic Path Planning Algorithms: (https://github.com/zhm-real/MotionPlanning) MotionPlanning
 
 To setup the demo download these dependencies:
     pip install carla numpy scipy heapdict
@@ -14,7 +14,7 @@ Run CarlaUE4.exe and wait for CARLA window to fully load
 
 Step 2:
 Run the demo script with
-    python ./parking_lot.py
+    python .\parking_lot.py
 
 ## Demo Information
 The script will automatically connect to CARLA and load Town05. Spectator perspective will spawn to the right of the parking lot, adjust view to see parking lot.
