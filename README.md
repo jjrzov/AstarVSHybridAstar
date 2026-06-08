@@ -8,7 +8,7 @@ To setup the demo download these dependencies:
 
 To avoid path dependency issues keep folder structure as shown in this repo.
 
-# Running the Demo
+## Running the Demo
 Step 1:
 Run CarlaUE4.exe and wait for CARLA window to fully load
 
@@ -16,7 +16,7 @@ Step 2:
 Run the demo script with
     python ./parking_lot.py
 
-# Demo Information
+## Demo Information
 The script will automatically connect to CARLA and load Town05. Spectator perspective will spawn to the right of the parking lot, adjust view to see parking lot.
 
 The script will setup A* and Hybrid A* based off the parking lot and run the planners with visualizers. The red blocks are the A* path, the green are the Hybrid A* path, and the grey boxes are obstacles. 
