@@ -10,7 +10,7 @@ To avoid path dependency issues keep folder structure as shown in this repo.
 
 ## Running the Demo
 Step 1:
-Run CarlaUE4.exe and wait for CARLA window to fully load
+Download CARLA from CARLA website and Run CarlaUE4.exe. Then wait for CARLA window to fully load
 
 Step 2:
 Run the demo script with
